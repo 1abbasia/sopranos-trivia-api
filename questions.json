@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "What is Tony Soprano's wife's name?",
+      "choices": [
+        "Angie",
+        "Carmela",
+        "Meadow",
+        "Janice"
+      ],
+      "answer": "Carmela"
+    },
+    {
+      "question": "What is the name of Tony Soprano's boat?",
+      "choices": [
+        "The Stugots",
+        "The Livin' Da Vida Loca",
+        "The Downtowner",
+        "The Whitecaps"
+      ],
+      "answer": "The Stugots"
+    },
+    {
+      "question": "What kind of business is Satriale's?",
+      "choices": [
+        "Restaurant",
+        "Florist",
+        "Laundromat",
+        "Butcher shop"
+      ],
+      "answer": "Butcher shop"
+    },
+    {
+      "question": "What is the name of Tony's therapist?",
+      "choices": [
+        "Dr. Melfi",
+        "Dr. Finkelstein",
+        "Dr. Rosenrosen",
+        "Dr. Katz"
+      ],
+      "answer": "Dr. Melfi"
+    },
+    {
+      "question": "What is the name of Tony's uncle who was the boss before him?",
+      "choices": [
+        "Junior",
+        "Mikey",
+        "Pussy",
+        "Richie"
+      ],
+      "answer": "Junior"
+    },
+    {
+      "question": "What is the name of Tony's childhood friend who becomes a priest?",
+      "choices": [
+        "Bobby",
+        "Paulie",
+        "Christopher",
+        "Father Phil"
+      ],
+      "answer": "Father Phil"
+    },
+    {
+      "question": "What is the name of the mobster who is killed by Paulie in the Pine Barrens?",
+      "choices": [
+        "Feech",
+        "Ralph",
+        "Benny",
+        "Vito"
+      ],
+      "answer": "Ralph"
+    },
+    {
+      "question": "What is the name of Tony's mother?",
+      "choices": [
+        "Livia",
+        "Gloria",
+        "Camilla",
+        "Janice"
+      ],
+      "answer": "Livia"
+    },
+    {
+      "question": "What is the name of the Jewish psychiatrist that Chris sees?",
+      "choices": [
+        "Dr. Katz",
+        "Dr. Goldstein",
+        "Dr. Finkelstein",
+        "Dr. Rosenrosen"
+      ],
+      "answer": "Dr. Finkelstein"
+    },
+    {
+      "question": "What is the name of the strip club owned by Silvio?",
+      "choices": [
+        "The Bing",
+        "The Spearmint Rhino",
+        "The Lollipop Lounge",
+        "The Crazy Horse"
+      ],
+      "answer": "The Bing"
+    }
+  ]
+}
