@@ -1,10 +1,26 @@
 const express = require('express');
 const app = express();
+const port = 3000;
 
-app.get('/api/questions', (req, res) => {
-  // return a JSON response with the trivia questions
+const fs = require('fs');
+const path = require('path');
+
+const questionsPath = path.join(__dirname, 'questions.json');
+
+app.get('/questions', (req, res) => {
+  fs.readFile(questionsPath, 'utf8', (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).send('Server error');
+      return;
+    }
+
+    const questions = JSON.parse(data);
+
+    res.json(questions);
+  });
 });
 
-app.get('/api/questions/:id', (req, res) => {
-  // return a JSON response with a specific trivia question
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
 });
