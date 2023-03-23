@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const axios = require('axios');
 
-const fs = require('fs');
+const fs = require('fs'); //require fs oduel 
 const path = require('path');
 
 const questionsPath = path.join(__dirname, 'questions.json');
